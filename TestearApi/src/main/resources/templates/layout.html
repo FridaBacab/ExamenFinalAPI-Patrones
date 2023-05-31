@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:fragment="head">
+	<title>Proyecto Sprint Bot UACAM</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="static/css/main.css" th:href="@{/css/main.css}">
+
+	
+</head>
+
+<body>
+	<!-- Navegación -->
+	<header th:fragment="header">
+		<div class="container">
+			<nav class="navbar" role="navigation" aria-label="main navigation">
+				<div class="navbar-start" >
+					<a class="navbar-item" href="#">
+						Univeridad Autonoma de Campeche
+	                </a>
+
+					<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+						data-target="navbarBasicExample">
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
+					</a>
+				</div>
+						<a class="navbar-item" href="/Patrones/PAT-001">
+							API Patrones
+						</a>
+						
+
+					</div>
+				</div>
+			</nav>
+		</div>
+		<br>
+		<br>
+	</header>
+	
+	<div class="container">
+		
+	</div>
+	<footer th:fragment="footer" class="card-footer">
+		
+		<p class="card-footer-item">
+			<br>
+		    <br>
+				<span>
+					View on <a href="">FACEBOOK</a>
+				</span>
+			</p>
+			<p class="card-footer-item">
+				<span>
+					FRIDA MARIAN BACAB IC
+				</span>
+			</p>
+		<div class="container">
+			
+			<p>(c) UACAM 2023</p>
+		</div>
+	</footer>
+</body>
+
+</html>
